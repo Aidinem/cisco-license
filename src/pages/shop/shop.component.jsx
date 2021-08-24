@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "./shop.style.css";
+import "./shop.style.scss";
 import SHOP_DATA from "./shop-data";
 import CollectionPreview from "../../components/collection-preview/collection-priview.component";
 
@@ -9,7 +9,7 @@ class ShopPage extends Component {
         super(props);
 
         this.state = {
-            collection : SHOP_DATA
+            collection: SHOP_DATA
         }
     }
 
